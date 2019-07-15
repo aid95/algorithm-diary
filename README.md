@@ -7,3 +7,5 @@
 
 - [x] [포도주 시식](https://www.acmicpc.net/problem/2156)
 - [x] [가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)
+- [x] [나는 너가 살아온 날을 알고 있다](https://www.acmicpc.net/problem/2139)
+- [x] [조 짜기](https://www.acmicpc.net/problem/2229)
