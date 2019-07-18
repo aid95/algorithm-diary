@@ -11,5 +11,5 @@
 - [x] [조 짜기](https://www.acmicpc.net/problem/2229)
 - [x] [피보나치 수 2](https://www.acmicpc.net/problem/2748)
 - [x] [피보나치 함수](https://www.acmicpc.net/problem/1003)
-
+- [x] [부분 합](https://www.acmicpc.net/problem/1806)
 
