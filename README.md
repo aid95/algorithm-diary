@@ -9,3 +9,7 @@
 - [x] [가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)
 - [x] [나는 너가 살아온 날을 알고 있다](https://www.acmicpc.net/problem/2139)
 - [x] [조 짜기](https://www.acmicpc.net/problem/2229)
+- [x] [피보나치 수 2](https://www.acmicpc.net/problem/2748)
+- [x] [피보나치 함수](https://www.acmicpc.net/problem/1003)
+- [x] [부분 합](https://www.acmicpc.net/problem/1806)
+
