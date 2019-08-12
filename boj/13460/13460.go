@@ -43,8 +43,8 @@ func main() {
 				rx = j
 				ry = i
 			} else if mapArr[i*m+j] == 'B' {
-				bx = i
-				by = j
+				bx = j
+				by = i
 			}
 		}
 	}
