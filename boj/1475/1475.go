@@ -14,7 +14,7 @@ func main() {
 		numberCountArray[n]++
 	}
 
-	//6, 9 처리
+	// 6, 9 처리
 	numberCountArray[6] += numberCountArray[9]
 	numberCountArray[9] = 0
 	numberCountArray[6] = numberCountArray[6]/2 + numberCountArray[6]%2
