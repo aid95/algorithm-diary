@@ -14,4 +14,5 @@
 - [x] [부분 합](https://www.acmicpc.net/problem/1806)
 - [x] [방 번호](https://www.acmicpc.net/problem/1475)
 - [x] [소트인사이드](https://www.acmicpc.net/problem/1427)
+- [x] [ATM](https://www.acmicpc.net/problem/11399)
 - [ ] [구술 탈출 2](https://www.acmicpc.net/problem/13460)
