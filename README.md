@@ -15,4 +15,5 @@
 - [x] [방 번호](https://www.acmicpc.net/problem/1475)
 - [x] [소트인사이드](https://www.acmicpc.net/problem/1427)
 - [x] [ATM](https://www.acmicpc.net/problem/11399)
+- [x] [유기농 배추](https://www.acmicpc.net/problem/1012)
 - [ ] [구술 탈출 2](https://www.acmicpc.net/problem/13460)
