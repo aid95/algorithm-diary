@@ -16,4 +16,6 @@
 - [x] [소트인사이드](https://www.acmicpc.net/problem/1427)
 - [x] [ATM](https://www.acmicpc.net/problem/11399)
 - [x] [유기농 배추](https://www.acmicpc.net/problem/1012)
+- [x] [리모컨](https://www.acmicpc.net/problem/1107)
+- [x] [좋은수열](https://www.acmicpc.net/problem/2661)
 - [ ] [구술 탈출 2](https://www.acmicpc.net/problem/13460)
