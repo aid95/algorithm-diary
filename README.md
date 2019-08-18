@@ -19,4 +19,5 @@
 - [x] [리모컨](https://www.acmicpc.net/problem/1107)
 - [x] [좋은수열](https://www.acmicpc.net/problem/2661)
 - [x] [DFS와BFS](https://www.acmicpc.net/problem/1260)
+- [x] [상근이의 여행](https://www.acmicpc.net/problem/9372)
 - [ ] [구술 탈출 2](https://www.acmicpc.net/problem/13460)
