@@ -20,4 +20,6 @@
 - [x] [좋은수열](https://www.acmicpc.net/problem/2661)
 - [x] [DFS와BFS](https://www.acmicpc.net/problem/1260)
 - [x] [상근이의 여행](https://www.acmicpc.net/problem/9372)
+- [x] [스택](https://www.acmicpc.net/problem/10828)
+- [x] [이칙연산](https://www.acmicpc.net/problem/15726)
 - [ ] [구술 탈출 2](https://www.acmicpc.net/problem/13460)
