@@ -22,4 +22,6 @@
 - [x] [상근이의 여행](https://www.acmicpc.net/problem/9372)
 - [x] [스택](https://www.acmicpc.net/problem/10828)
 - [x] [이칙연산](https://www.acmicpc.net/problem/15726)
+- [x] [음계](https://www.acmicpc.net/problem/2920)
+- [x] [다이얼](https://www.acmicpc.net/problem/5622)
 - [ ] [구술 탈출 2](https://www.acmicpc.net/problem/13460)
