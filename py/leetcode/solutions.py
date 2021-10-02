@@ -3,7 +3,11 @@ import re
 import sys
 from typing import List, Optional
 
-from leetcode.list_node import ListNode
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 
 
 class Solution:

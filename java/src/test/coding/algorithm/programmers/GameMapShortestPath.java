@@ -2,6 +2,9 @@ package test.coding.algorithm.programmers;
 
 import test.coding.algorithm.Solution;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class GameMapShortestPath implements Solution {
 
   @Override
@@ -15,37 +18,51 @@ public class GameMapShortestPath implements Solution {
 
   private final int[] dx = new int[] {0, 0, -1, 1};
   private final int[] dy = new int[] {-1, 1, 0, 0};
-  private int answer = -1;
 
   public int solution(int[][] maps) {
-    int w = maps[0].length;
-    int h = maps.length;
-    dfs(maps, new boolean[h][w], 0, 0, 1);
-    return answer;
+    return bfs(maps);
   }
 
-  public void dfs(int[][] maps, boolean[][] visited, int x, int y, int count) {
-    visited[y][x] = true;
+  public int bfs(int[][] maps) {
+    Queue<Player> q = new LinkedList<>();
+    int width = maps[0].length;
+    int height = maps.length;
+    boolean[][] visited = new boolean[height][width];
 
-    if (x == (maps[0].length - 1) && y == (maps.length - 1)) {
-      if (answer != -1) {
-        answer = Math.min(answer, count);
-      } else {
-        answer = count;
+    q.offer(new Player(0, 0, 1));
+    visited[0][0] = true;
+    while (!q.isEmpty()) {
+      Player player = q.poll();
+
+      if ((player.x == width - 1) && (player.y == height - 1)) {
+        return player.count;
       }
-      return;
+
+      for (int i = 0; i < 4; i++) {
+        int nx = player.x + dx[i];
+        int ny = player.y + dy[i];
+
+        if ((0 <= nx && nx < width)
+            && (0 <= ny && ny < height)
+            && !visited[ny][nx]
+            && maps[ny][nx] == 1) {
+          visited[ny][nx] = true;
+          q.offer(new Player(nx, ny, player.count + 1));
+        }
+      }
     }
+    return -1;
+  }
 
-    for (int i = 0; i < 4; i++) {
-      int nx = x + dx[i];
-      int ny = y + dy[i];
-      if ((0 <= nx && nx < maps[0].length)
-          && (0 <= ny && ny < maps.length)
-          && !visited[ny][nx]
-          && maps[ny][nx] != 0) {
-        dfs(maps, visited, nx, ny, count + 1);
-        visited[ny][nx] = false;
-      }
+  class Player {
+    public int x;
+    public int y;
+    public int count;
+
+    public Player(int x, int y, int count) {
+      this.x = x;
+      this.y = y;
+      this.count = count;
     }
   }
 }
