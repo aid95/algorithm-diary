@@ -18,7 +18,7 @@ type ans1 struct {
 	num int
 }
 
-func Test_Problem1(t *testing.T) {
+func TestMakeOne(t *testing.T) {
 	qs := []question1{
 		{
 			para1{num: 3},
