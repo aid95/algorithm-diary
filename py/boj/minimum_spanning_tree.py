@@ -9,21 +9,19 @@ rank = collections.defaultdict(int)
 
 
 def find(x: int):
-    if parents[x] == x:
-        return x
-    parents[x] = find(parents[x])
+    if x != parents[x]:
+        parents[x] = find(parents[x])
     return parents[x]
 
 
 def union(s: int, d: int):
-    if find(s) == find(d):
-        return
-    if rank[s] > rank[d]:
-        s, d = d, s
-    parents[s] = d
-    if rank[s] == rank[d]:
-        rank[d] += 1
-    return
+    p_s = find(s)
+    p_d = find(d)
+    if p_s != p_d:
+        if p_s > p_d:
+            parents[p_s] = p_d
+        else:
+            parents[p_d] = p_s
 
 
 def solution():
