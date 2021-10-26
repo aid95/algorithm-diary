@@ -1,6 +1,6 @@
-package dev.bk0.algorithm.baekjoon;
+package javaps.baekjoon;
 
-import dev.bk0.algorithm.Solution;
+import javaps.Solution;
 
 import java.io.*;
 import java.util.StringTokenizer;
@@ -10,11 +10,10 @@ public class NM3 implements Solution {
   private static int N = 0;
   private static int M = 0;
   private static BufferedWriter bw = null;
-  private static BufferedReader br = null;
 
   @Override
   public void run() {
-    br = new BufferedReader(new InputStreamReader(System.in));
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
     try {

@@ -1,15 +1,15 @@
-package dev.bk0.algorithm.programmers;
+package javaps.programmers;
 
 public class KakaoFriendsPicture {
 
-  private String[] friends = {"A", "C", "F", "J", "M", "N", "R", "T"};
-  private boolean[] visited = new boolean[8];
-  private String[] conds = null;
+  private final String[] friends = {"A", "C", "F", "J", "M", "N", "R", "T"};
+  private final boolean[] visited = new boolean[8];
+  private String[] conditions = null;
   private int answer = 0;
   private int count = 0;
 
   public int solution(int n, String[] data) {
-    conds = data;
+    conditions = data;
     bt("");
     System.out.println(count);
     return answer;
@@ -33,7 +33,7 @@ public class KakaoFriendsPicture {
   }
 
   private boolean valid(String line) {
-    for (var cond : conds) {
+    for (var cond : conditions) {
       int l = line.indexOf(cond.charAt(0));
       int r = line.indexOf(cond.charAt(2));
       int op = cond.charAt(3);

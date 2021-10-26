@@ -1,4 +1,4 @@
-package dev.bk0.algorithm;
+package javaps;
 
 public interface Solution {
   void run();

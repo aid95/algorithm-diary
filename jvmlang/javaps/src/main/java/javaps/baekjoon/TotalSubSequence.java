@@ -1,6 +1,6 @@
-package dev.bk0.algorithm.baekjoon;
+package javaps.baekjoon;
 
-import dev.bk0.algorithm.Solution;
+import javaps.Solution;
 
 import java.io.*;
 import java.util.StringTokenizer;
