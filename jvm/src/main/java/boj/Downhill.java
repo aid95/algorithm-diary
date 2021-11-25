@@ -6,8 +6,8 @@ import java.util.Arrays;
 
 public class Downhill {
 
-  private static final int[] dx = new int[] {0, -1, 1};
-  private static final int[] dy = new int[] {1, 0, 0};
+  private static final int[] dx = new int[]{0, -1, 1};
+  private static final int[] dy = new int[]{1, 0, 0};
 
   private static int[][] map;
   private static int[][] dp;

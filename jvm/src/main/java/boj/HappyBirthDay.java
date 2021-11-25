@@ -8,7 +8,7 @@ import java.util.List;
 
 public class HappyBirthDay {
 
-  public static void main(String[] args) throws Exception {
+  public static void entryPoint(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     int tc = Integer.parseInt(br.readLine().trim());
 
@@ -27,6 +27,7 @@ public class HappyBirthDay {
   }
 
   public static class Student {
+
     private String name;
     private int day;
     private int year;
