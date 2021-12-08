@@ -6,7 +6,7 @@ import java.util.stream.IntStream
 
 class StreetTree constructor(private val trees: Array<Int>) {
 
-    private fun gcd(a: Int, b: Int): Int = if (b != 0) gcd(b, a % b) else a
+    private tailrec fun gcd(a: Int, b: Int): Int = if (b != 0) gcd(b, a % b) else a
 
     fun solution(): Int {
         val d = gcd(trees[1] - trees[0], trees[2] - trees[1])
@@ -24,6 +24,6 @@ fun main(args: Array<String>) {
     }
 
     val solution = StreetTree(trees)
-   
+
     print(solution.solution())
 }
