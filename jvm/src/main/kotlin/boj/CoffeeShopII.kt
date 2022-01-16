@@ -57,7 +57,7 @@ class CoffeeShopII constructor(private val numbers: Array<Long>) {
     }
 }
 
-fun main(args: Array<String>) {
+fun coffeeShopII(args: Array<String>) {
     val br = BufferedReader(InputStreamReader(System.`in`))
 
     val (_, q) = br.readLine().trim().split(" ").map(String::toInt)

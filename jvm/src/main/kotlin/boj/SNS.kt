@@ -27,7 +27,7 @@ class SNS constructor(private val graph: Array<Vector<Int>>) {
     }
 }
 
-fun main(args: Array<String>) {
+fun sns(args: Array<String>) {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val graph = Array(1_000_001) { Vector<Int>() }
     repeat(br.readLine().trim().toInt().minus(1)) {

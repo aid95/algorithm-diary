@@ -55,7 +55,7 @@ class ChickenDelivery constructor(private val map: Array<Array<Int>>) {
     }
 }
 
-fun main(args: Array<String>) {
+fun chickenDelivery(args: Array<String>) {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val (n, m) = br.readLine().trim().split(" ").map { it.toInt() }
     val map = Array(n) { br.readLine().trim().split(" ").map { it.toInt() }.toTypedArray() }

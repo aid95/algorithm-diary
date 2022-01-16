@@ -43,7 +43,7 @@ class Frog constructor(private val stones: Array<Int>) {
     data class Node constructor(val pos: Int, val chance: Int)
 }
 
-fun main(args: Array<String>) {
+fun frog(args: Array<String>) {
     val br = BufferedReader(InputStreamReader(System.`in`))
     br.readLine()
     val stones = br.readLine().trim().split(" ").map { it.toInt() }.toTypedArray()

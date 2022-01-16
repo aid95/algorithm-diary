@@ -16,7 +16,7 @@ class StreetTree constructor(private val trees: Array<Int>) {
     }
 }
 
-fun main(args: Array<String>) {
+fun streetTree(args: Array<String>) {
     val br = BufferedReader(InputStreamReader(System.`in`))
 
     val trees = Array(br.readLine().trim().toInt()) {

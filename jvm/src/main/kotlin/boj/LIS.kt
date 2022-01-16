@@ -27,7 +27,7 @@ class LIS constructor(private val nums: Array<Int>) {
     }
 }
 
-fun main(args: Array<String>) {
+fun lis(args: Array<String>) {
     val br = BufferedReader(InputStreamReader(System.`in`))
     br.readLine()
     val nums = br.readLine().trim().split(" ").map(String::toInt).toTypedArray()

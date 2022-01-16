@@ -36,7 +36,7 @@ class CompanyCulture constructor(private val graph: Array<Vector<Int>>) {
     override fun toString(): String = compliment.joinToString(" ")
 }
 
-fun main(args: Array<String>) {
+fun companyCulture(args: Array<String>) {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val (n, m) = br.readLine().trim().split(" ").map { it.toInt() }
     val graph = Array(n) { Vector<Int>() }

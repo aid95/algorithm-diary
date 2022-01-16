@@ -57,6 +57,6 @@ class AvoidFood {
     data class Point constructor(val x: Int, val y: Int)
 }
 
-fun main(args: Array<String>) {
+fun avoidFood(args: Array<String>) {
     AvoidFood().entryPoint(args)
 }

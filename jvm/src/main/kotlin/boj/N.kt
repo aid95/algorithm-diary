@@ -5,7 +5,7 @@ import java.io.InputStreamReader
 
 class N
 
-fun main(args: Array<String>) {
+fun n(args: Array<String>) {
     val br = BufferedReader(InputStreamReader(System.`in`))
 
     println(

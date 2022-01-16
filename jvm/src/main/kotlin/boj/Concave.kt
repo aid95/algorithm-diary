@@ -105,7 +105,7 @@ class Concave constructor(private val map: Array<Array<TYPE>>) {
     }
 }
 
-fun main(args: Array<String>) {
+fun canvas(args: Array<String>) {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val map = Array(19 + 6) { Array(19 + 6) { TYPE.NONE } }
 

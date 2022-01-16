@@ -38,7 +38,7 @@ class Hacking constructor(private val graph: Array<Vector<Int>>) {
     }
 }
 
-fun main(args: Array<String>) {
+fun hacking(args: Array<String>) {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val (n, m) = br.readLine().trim().split(" ").map { it.toInt() }
     val graph = Array(n + 1) { Vector<Int>() }

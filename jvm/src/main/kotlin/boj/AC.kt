@@ -59,7 +59,7 @@ sealed class Command {
     object D : Command()
 }
 
-fun main(args: Array<String>) {
+fun ac(args: Array<String>) {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val tc = br.readLine().trim().toInt()
     repeat(tc) {

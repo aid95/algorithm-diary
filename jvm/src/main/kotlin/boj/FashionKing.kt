@@ -21,7 +21,7 @@ class FashionKing {
             .minus(1)
 }
 
-fun main(args: Array<String>) {
+fun fashionKing(args: Array<String>) {
     val br = BufferedReader(InputStreamReader(System.`in`))
     repeat(br.readLine().trim().toInt()) {
         val solver = FashionKing()

@@ -23,7 +23,7 @@ class PowerCordManager {
         this.powerCords.add(powerCord)
     }
 
-    fun asd(): Int {
+    fun inspect(): Int {
         val sortedPowerCord = powerCords.sorted()
         val dp = Array(sortedPowerCord.size) { 0 }
         var maxL = 0
@@ -41,12 +41,12 @@ class PowerCordManager {
     }
 }
 
-fun main(args: Array<String>) = with(System.`in`.bufferedReader()) {
+fun powerCord(args: Array<String>) = with(System.`in`.bufferedReader()) {
     val t = readLine().trim().toInt()
     val powerCordManager = PowerCordManager()
     repeat(t) {
         val (a, b) = readLine().trim().split(" ").map { UtilityPole(it.toInt()) }
         powerCordManager.add(PowerCord(a, b))
     }
-    print(powerCordManager.asd())
+    print(powerCordManager.inspect())
 }
